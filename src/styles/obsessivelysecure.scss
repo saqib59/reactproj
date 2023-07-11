@@ -1,0 +1,128 @@
+.obsessivelysecure__section {
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  padding: 4em 0em;
+  padding-top: 3em;
+}
+.obsessivelysecure__section__content {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3em;
+  flex-wrap: wrap;
+  padding: 0em 2em;
+  margin: 0 auto;
+}
+.obsessivelysecure__section__content__left {
+  width: 50%;
+}
+.obsessivelysecure__section__content__left__heading {
+  font-size: 45px;
+
+  color: #fff;
+  font-family: "Bebas Neue", sans-serif;
+}
+.obsessivelysecure__section__content__left__heading span {
+  color: #86c133;
+  font-family: "Bebas Neue", sans-serif;
+}
+.obsessivelysecure__section__content__left__info {
+  font-size: 16px;
+  color: #fff;
+  text-align: justify;
+}
+.obsessivelysecure__section__content__left__img {
+  width: 100%;
+  object-fit: cover;
+  padding: 2em;
+}
+.loremimg__section__img img {
+  width: 100%;
+  min-height: 500px;
+  object-fit: cover;
+}
+.loremimg__section {
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+.loremimg__section__content__overlay__heading {
+  font-size: 55px;
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 0.5em;
+  max-width: 650px;
+}
+.loremimg__section__content {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3em;
+  flex-wrap: wrap;
+
+  margin: 0 auto;
+}
+.loremimg__section__content__overlay {
+  position: absolute;
+  top: 150px;
+  left: 15%;
+  max-width: 1100px;
+  // margin: 0 auto;
+}
+.loremimg__section__content__overlay__info {
+  max-width: 500px;
+}
+@media (max-width: 850px) {
+  .obsessivelysecure__section__content {
+    flex-direction: column;
+  }
+  .obsessivelysecure__section__content__left {
+    width: 100%;
+  }
+  .obsessivelysecure__section__content__left__heading {
+    font-size: 30px;
+    padding: 0em;
+    text-align: center;
+  }
+  .obsessivelysecure__section__content__left__info {
+    font-size: 16px;
+  }
+  .obsessivelysecure__section__content__left__img {
+    padding: 0.5em;
+  }
+  .loremimg__section__content__overlay {
+    left: 10%;
+    top: 70px;
+  }
+  .loremimg__section__img img {
+    min-height: 350px;
+  }
+}
+@media (max-width: 680px) {
+  .loremimg__section__content__overlay {
+    left: 3%;
+    top: 80px;
+    padding: 1em;
+  }
+  .loremimg__section__img img {
+    min-height: 270px;
+  }
+
+  .loremimg__section__content__overlay__heading {
+    font-size: 30px;
+  }
+}
